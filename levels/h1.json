@@ -1,0 +1,9 @@
+[
+    ["wall", "wall", "wall", "wall", "wall", "door", "wall"],
+    ["lava", "lava", "wall", null, "ice", "ice", "spike"],
+    ["lava", "ice", "ice", null, "wall", "wall", "wall"],
+    ["power", "ice", "wall", null, null, "lava", "wall"],
+    ["lava", "key", "wall", null, null, "lava", "wall"],
+    ["wall", "button", "wall", null, null, "lava", "wall"],
+    ["wall", "wall", "wall", null, "wall", "wall", "wall"]
+]
