@@ -75,7 +75,7 @@ class Player:
         for p in self.powers.keys():
             self.powers[p] = max(self.powers[p] - dt, 0)
 
-        self.slip /= 1.5
+        self.slip /= 1.3
 
     def recalculate_speed(self, other):
         if (
