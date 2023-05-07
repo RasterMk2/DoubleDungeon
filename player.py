@@ -19,7 +19,7 @@ class Player:
     keys: tuple[int, int, int, int]
     speed: int = 100
     on_ice: bool = False
-    slip: Vector2 = Vector2(0, 0)
+    slip: Vector2 = field(default_factory=Vector2)
     current_level: int = 0
     level_data: list = field(default_factory=list)
     powers: dict = field(default_factory=powers_default)
